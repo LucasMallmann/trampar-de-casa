@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "BROWSER=none prisma studio",
     "db-start": "npx prisma generate && npx supabase start",
+    "db-migrate-dev": "npx prisma migrate dev --name init",
     "db-seed": "npx prisma db seed",
     "db-stop": "npx supabase stop --backup"
   },
