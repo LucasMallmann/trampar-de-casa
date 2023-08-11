@@ -14,7 +14,9 @@
     "test": {},
     "db-start": {},
     "db-seed": {},
-    "db-stop": {}
+    "db-stop": {},
+    "db-up": {},
+    "db-migrate": {}
   },
   "globalEnv": ["VERCEL_URL", "VERCEL_ENV"]
 }
